@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>Formulario de registro de Alumnos de Nuevo Ingreso</h1>
+    <form id="registroForm">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña"><br><br>
+
+        <label>Género:</label><br>
+        <input type="radio" id="hombre" name="genero" value="hombre">
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" id="mujer" name="genero" value="mujer">
+        <label for="mujer">Mujer</label><br>
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">Otro</label><br><br>
+
+        <label>Intereses:</label><br>
+        <input type="checkbox" id="deportes" name="intereses" value="deportes">
+        <label for="deportes">Deportes</label><br>
+        <input type="checkbox" id="musica" name="intereses" value="musica">
+        <label for="musica">Música</label><br>
+        <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia">
+        <label for="tecnologia">Tecnología</label><br><br>
+
+        <label for="carrera">Carrera a la que aspiras:</label><br>
+        <select id="carrera" name="carrera">
+            <option value="isc">Ingeniería en Sistemas Computacionales</option>
+            <option value="civil">Ingeniería Civil</option>
+            <option value="arquitectura">Arquitectura</option>
+            <option value="mecatronica">Ingeniería en Mecatrónica</option>
+        </select><br><br>
+
+        <label for="comentarios">Comentarios adicionales:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar Formulario">
+        <input type="button" value="Restablecer Formulario" onclick="resetForm()">
+    </form>
+
+    <script>
+        function resetForm() {
+            // Restablece el formulario completo
+            document.getElementById('registroForm').reset();
+
+            // Opciones de género y de interés vuelven a un estado sin selección
+            document.getElementById('hombre').checked = false;
+            document.getElementById('mujer').checked = false;
+            document.getElementById('otro').checked = false;
+            document.getElementById('deportes').checked = false;
+            document.getElementById('musica').checked = false;
+            document.getElementById('tecnologia').checked = false;
+        }
+    </script>
+</body>
+</html>
