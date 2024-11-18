@@ -20,5 +20,3 @@
   <a href = "Practica6.php"> Pràctica6 PHP </a><br>
   <a href = "Imagen.png"> Pràctica7 PHP </a><br>
 </body>
-  
-</body>
