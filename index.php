@@ -12,12 +12,12 @@
   <a href = "Practica4.html"> Práctica 4 </a> <br>
   <a href = "Practica5.html"> Practica 5 </a><br>
   <a href = "Practica6.html"> Practica 6 </a><br>
-  <a href = "http://localhost/Programacion-YajairaGomez/Practica1.php"> Pràctica1 PHP </a><br>
-  <a href = "http://localhost/Programacion-YajairaGomez/Practica2.php"> Pràctica2 PHP </a><br>
-  <a href = "http://localhost/Programacion-YajairaGomez/Practica3.php"> Pràctica3 PHP </a><br>
-  <a href = "http://localhost/Programacion-YajairaGomez/Practica4.php"> Pràctica4 PHP </a><br>
-  <a href = "http://localhost/Programacion-YajairaGomez/Practica5.php"> Pràctica5 PHP </a><br>
-  <a href = "http://localhost/Programacion-YajairaGomez/Practica6.php"> Pràctica6 PHP </a><br>
-  <a href = "http://localhost/Programacion-YajairaGomez/Practica7.php"> Pràctica7 PHP </a><br>
+  <a href = "Practica1.php"> Pràctica1 PHP </a><br>
+  <a href = "Practica2.php"> Pràctica2 PHP </a><br>
+  <a href = "Practica3.php"> Pràctica3 PHP </a><br>
+  <a href = "Practica4.php"> Pràctica4 PHP </a><br>
+  <a href = "Practica5.php"> Pràctica5 PHP </a><br>
+  <a href = "Practica6.php"> Pràctica6 PHP </a><br>
+  <a href = "Practica7.php"> Pràctica7 PHP </a><br>
   <a href = "Imagen.png"> Pràctica7 PHP </a><br>
-</cuerpo>
+</body>
