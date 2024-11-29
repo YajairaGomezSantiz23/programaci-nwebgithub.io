@@ -22,7 +22,7 @@
   <a href = "Imagen8.png"> Pràctica8 PHP </a><br>
   <a href = "Imagen9.png"> Pràctica9 PHP </a><br>
   <a href = "ImagenPractica10.png"> Pràctica10 PHP </a><br>
-  <a href = "Tabla.html"> Práctica Tabla </a> <br>
+  <a href = "Tabla.php"> Práctica Tabla </a> <br>
   <a href = "Practica11"> Pràctica11 PHP </a><br>
 </body> 
   
